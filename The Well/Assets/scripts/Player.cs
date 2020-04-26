@@ -10,7 +10,9 @@ public class Player : MonoBehaviour
 
     public float jumpForce;
 
-    private bool FaceRight;
+    public Animator animator;
+
+    public float time;
 
     bool isGrounded = false;
     public Transform isGroundedCheck;
@@ -20,7 +22,6 @@ public class Player : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        FaceRight = true;
     }
 
     // Update is called once per frame
@@ -29,6 +30,18 @@ public class Player : MonoBehaviour
         Move();
         Jump();
         CheckIfGrounded();
+
+        //flip
+        Vector3 characterScale = transform.localScale;
+        if(Input.GetAxis("Horizontal") < 0)
+        {
+            characterScale.x = -2;
+        }
+        if (Input.GetAxis("Horizontal") >= 0)
+        {
+            characterScale.x = 2;
+        }
+        transform.localScale = characterScale;
     }
 
     void Move()
@@ -38,6 +51,8 @@ public class Player : MonoBehaviour
         float moveBy = x * speed;
 
         rb.velocity = new Vector2(moveBy, rb.velocity.y);
+
+        animator.SetFloat("Szybkosc", Mathf.Abs(x));
     }
 
     void Jump()
@@ -45,6 +60,7 @@ public class Player : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+            animator.SetBool("Jumps", true);
         }
     }
 
@@ -53,11 +69,13 @@ public class Player : MonoBehaviour
         Collider2D collider = Physics2D.OverlapCircle(isGroundedCheck.position, groundCheckRadius, theground);
         if (collider != null)
         {
-            isGrounded = true;
+                isGrounded = true;
+                animator.SetBool("Jumps", false);
         }
         else
         {
             isGrounded = false;
         }
+        
     }
 }
