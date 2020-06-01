@@ -10,6 +10,7 @@ TextureImporter:
     21300010: bohater_5
     21300012: bohater_6
     21300014: bohater_7
+    21300016: bohater_punch
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -96,17 +97,17 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 34
+        y: 67
         width: 33
         height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.4848485, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 367de4c0651559d449aaa9bdd16674c3
+      spriteID: 442270754c9f65e469d306a4508be82b
       vertices: []
       indices: 
       edges: []
@@ -116,17 +117,17 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 35
-        y: 34
+        y: 67
         width: 33
         height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.4848485, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62400d26225226549b2d7c05934705da
+      spriteID: 13918abcaa2349f4dbde0069d1a277db
       vertices: []
       indices: 
       edges: []
@@ -136,17 +137,17 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 69
-        y: 34
+        y: 67
         width: 33
         height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.4848485, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db64a1b480de325449f55685da7236e1
+      spriteID: b3833926779d92d44a5041ceadb880b6
       vertices: []
       indices: 
       edges: []
@@ -156,17 +157,17 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 103
-        y: 34
+        y: 67
         width: 33
         height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.4848485, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb20b8f402af6b04b81efae54ab8213e
+      spriteID: 46453aa9261dc9e478a6b0a29d6dceb8
       vertices: []
       indices: 
       edges: []
@@ -175,18 +176,18 @@ TextureImporter:
       name: bohater_4
       rect:
         serializedVersion: 2
-        x: 1
-        y: 0
-        width: 32
+        x: 0
+        y: 34
+        width: 33
         height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.4848485, y: 0.53333336}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd83a5f08e0c19842bf03113bd370817
+      spriteID: 87be9d4354cee99468f197aea2530f8c
       vertices: []
       indices: 
       edges: []
@@ -196,9 +197,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 35
-        y: 0
+        y: 33
         width: 32
-        height: 32
+        height: 33
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,7 +207,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c6d3246620c2af469b349deb04411bb
+      spriteID: 8048761d54f891d43a47402717aecd76
       vertices: []
       indices: 
       edges: []
@@ -216,9 +217,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 69
-        y: 0
-        width: 32
-        height: 32
+        y: 33
+        width: 33
+        height: 33
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,7 +227,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9271e48b2dccc3144be37ec001a09ed2
+      spriteID: a647d43d68ff4eb498b9585671d09482
       vertices: []
       indices: 
       edges: []
@@ -236,17 +237,37 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 103
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        y: 33
+        width: 33
+        height: 33
+      alignment: 9
+      pivot: {x: 0.4848485, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f33a1118f28d7c419b8a211f45c4090
+      spriteID: 067bd9c46448b56429d04ef55a5c96e9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bohater_punch
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 49
+        height: 32
+      alignment: 9
+      pivot: {x: 0.3265306, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42688370ab863c948bb4a78d55bedff7
       vertices: []
       indices: 
       edges: []
