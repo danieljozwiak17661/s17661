@@ -9,34 +9,31 @@ public class HeightCounter : MonoBehaviour
     public Transform Player;
 
     public int Height;
+    private int howTallmax;
 
     private HeightManager HeightManager;
     void Start()
-    { 
+    {
 
         HeightManager = GameObject.Find("ScoreManager").GetComponent<HeightManager>();
-
     }
 
     // Update is called once per frame
    public void Update()
     {
-
         climb = Player.position.y;
         HeightC();
-
     }
     void HeightC()
     {
         int howTall = Mathf.RoundToInt(climb);
-        Debug.Log(howTall);
-        if (climb > 0)
-        {
-            if (climb >= howTall)
+       // Debug.Log(howTall);
+
+            if (howTall > howTallmax)
             {
-                HeightManager.IncrementScore(Height); ;
+                HeightManager.IncrementScore(Height);
+                howTallmax = howTall;
                 //print ("Heightincreasre");
             }
-        }
     }
 }

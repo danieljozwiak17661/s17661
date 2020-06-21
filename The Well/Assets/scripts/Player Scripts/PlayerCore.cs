@@ -8,27 +8,33 @@ public class PlayerCore : MonoBehaviour
 
     public int playerHealth;
     public bool Angery;
-
+    public Animator animator;
+    public Transform Player;
+    public bool dead;
 
     // Start is called before the first frame update
     void Start()
     {
         gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
+        dead = false;
     }
 
-    private void Update()
+     void Update()
     {
+        Debug.Log(dead);
         if (playerHealth <= 0)
         {
-            Destroy(gameObject);
+            dead = true;
+            //Destroy(gameObject);
             gameManager.GameOver();
+
         }
     }
-    // Update is called once per frame
 
     public void TakeDamage(int hitDamage)
     {
         playerHealth -= hitDamage;
+        animator.SetTrigger("Death");
     }
 
 }

@@ -11,6 +11,15 @@ TextureImporter:
     21300012: bohater_6
     21300014: bohater_7
     21300016: bohater_punch
+    21300018: bohater_punch2
+    21300020: bohater_punch3
+    21300022: bohater_8
+    21300024: bohater_9
+    21300026: bohater_10
+    21300028: bohater_11
+    21300030: bohater_13
+    21300032: bohater_15
+    21300034: bohater_16
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -97,7 +106,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 67
+        y: 152
         width: 33
         height: 32
       alignment: 9
@@ -107,7 +116,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 442270754c9f65e469d306a4508be82b
+      spriteID: 87e92dbe2ca56e74f896c3b6d9fb9565
       vertices: []
       indices: 
       edges: []
@@ -117,7 +126,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 35
-        y: 67
+        y: 152
         width: 33
         height: 32
       alignment: 9
@@ -127,7 +136,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 13918abcaa2349f4dbde0069d1a277db
+      spriteID: f704e66f955714e4d90a56a460d86004
       vertices: []
       indices: 
       edges: []
@@ -137,7 +146,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 69
-        y: 67
+        y: 152
         width: 33
         height: 32
       alignment: 9
@@ -147,7 +156,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3833926779d92d44a5041ceadb880b6
+      spriteID: fbe29711ace9e3841a0af3d9d75afa4a
       vertices: []
       indices: 
       edges: []
@@ -157,7 +166,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 103
-        y: 67
+        y: 152
         width: 33
         height: 32
       alignment: 9
@@ -167,7 +176,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 46453aa9261dc9e478a6b0a29d6dceb8
+      spriteID: c7ea6643d68d55841bbccb05d8d36bfe
       vertices: []
       indices: 
       edges: []
@@ -176,18 +185,18 @@ TextureImporter:
       name: bohater_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 34
-        width: 33
-        height: 32
+        x: 1
+        y: 118
+        width: 32
+        height: 31
       alignment: 9
-      pivot: {x: 0.4848485, y: 0.53333336}
+      pivot: {x: 0.5, y: 0.516129}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 87be9d4354cee99468f197aea2530f8c
+      spriteID: f56bec6c505852e4096d3c7ee1d667c3
       vertices: []
       indices: 
       edges: []
@@ -197,17 +206,17 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 35
-        y: 33
+        y: 118
         width: 32
-        height: 33
-      alignment: 0
+        height: 32
+      alignment: 9
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8048761d54f891d43a47402717aecd76
+      spriteID: ae99f852e20dc1647ac2cc312794b0f1
       vertices: []
       indices: 
       edges: []
@@ -217,17 +226,17 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 69
-        y: 33
-        width: 33
-        height: 33
-      alignment: 0
+        y: 118
+        width: 32
+        height: 32
+      alignment: 9
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a647d43d68ff4eb498b9585671d09482
+      spriteID: 54de34ed7457e2b4dbccc791288bcb51
       vertices: []
       indices: 
       edges: []
@@ -237,37 +246,157 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 103
-        y: 33
-        width: 33
-        height: 33
+        y: 118
+        width: 32
+        height: 31
       alignment: 9
-      pivot: {x: 0.4848485, y: 0.5}
+      pivot: {x: 0.5, y: 0.516129}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 067bd9c46448b56429d04ef55a5c96e9
+      spriteID: 7a09f02541efb614cba524edd0c5f060
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bohater_punch
+      name: bohater_8
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 49
+        x: 1
+        y: 85
+        width: 38
         height: 32
       alignment: 9
-      pivot: {x: 0.3265306, y: 0.5}
+      pivot: {x: 0.42105263, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 42688370ab863c948bb4a78d55bedff7
+      spriteID: db59470de2f66b14a88e86745b9868db
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bohater_9
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 85
+        width: 44
+        height: 32
+      alignment: 9
+      pivot: {x: 0.38636363, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e722d2535a4728b49bc5154ea4408e08
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bohater_10
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 85
+        width: 49
+        height: 32
+      alignment: 9
+      pivot: {x: 0.3469388, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7058a178136c96343969f69c1ecce8f6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bohater_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 45
+        width: 37
+        height: 32
+      alignment: 9
+      pivot: {x: 0.43243244, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de79a689e2e41d340a39f0cd9510cedc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bohater_13
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 45
+        width: 57
+        height: 32
+      alignment: 9
+      pivot: {x: 0.40350878, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb4bbe099ba44254ea369b8bcba65a97
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bohater_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5
+        width: 73
+        height: 26
+      alignment: 9
+      pivot: {x: 0.46575344, y: 0.61538464}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5fc5becb37c75d4ebf400aa32744f31
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bohater_16
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 5
+        width: 71
+        height: 17
+      alignment: 9
+      pivot: {x: 0.47887322, y: 0.9411765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ceb84786b51cc246baed1a61bd53822
       vertices: []
       indices: 
       edges: []

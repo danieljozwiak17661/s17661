@@ -7,12 +7,12 @@ using Vector3 = UnityEngine.Vector3;
 public class Camera : MonoBehaviour
 {
     public Transform Player;
-    public float cameraDistance = 30f;
+
     // Start is called before the first frame update
 
      void Awake()
     {
-        GetComponent<UnityEngine.Camera>().orthographicSize = ((Screen.height / 2) / cameraDistance);
+
     }
     void FixedUpdate ()
     {

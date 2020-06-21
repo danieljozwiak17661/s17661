@@ -29,19 +29,35 @@ public class Enemy : MonoBehaviour
     public float hitRange;
     public LayerMask whatIsPlayer;
 
+    private float dieTime;
+    private float dying;
+
+    public Animator EnemyAnimator;
 
     private void Start()
     {
         KillManager = GameObject.Find("ScoreManager").GetComponent<KillManager>();
         killed = false;
+        dieTime = 1;
     }
     void Update()
     {
-        if (health <= 0)
+
+            if (health <= 0)
         {
-            Destroy(gameObject);
             killed = true;
-            KillManager.IncrementScore(kills);
+            dying += Time.deltaTime;
+            hitDuration = 60;
+            hitDamage = 0;
+            speed = 0;
+            EnemyAnimator.SetTrigger("death");
+
+
+            if (dying >= dieTime)
+            {
+                KillManager.IncrementScore(kills);
+                Destroy(gameObject);
+            }
         }
 
 
@@ -73,7 +89,10 @@ public class Enemy : MonoBehaviour
         }
         else
         {
-            speed = 5;
+            speed = 10;
+            EnemyAnimator.SetFloat("Speed", Mathf.Abs(speed));
+            EnemyAnimator.SetBool("Prepares Claw", false);
+            hitDuration = hitStartTime;
         }
     }
     public void TakeDamage(int damage)
@@ -93,10 +112,13 @@ public class Enemy : MonoBehaviour
                 }
             
             hitDuration = hitStartTime;
+            EnemyAnimator.SetBool("Prepares Claw", false);
+            EnemyAnimator.SetTrigger("Claws");
         }
         else
         {
             hitDuration -= Time.deltaTime;
+            EnemyAnimator.SetBool("Prepares Claw",true);
         }
     }
     private void OnDrawGizmosSelected()
@@ -104,4 +126,6 @@ public class Enemy : MonoBehaviour
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(hitPos.position, hitRange);
     }
+
+
 }

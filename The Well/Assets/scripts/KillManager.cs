@@ -11,13 +11,9 @@ public class KillManager : MonoBehaviour
     public int kills;
     private int MostKills;
     // Start is called before the first frame update
-    void Start()
-    {
 
-    }
     private void Awake()
     {
-        //KILLS PART
         if (PlayerPrefs.HasKey(ScorePrefs.KILLS))
             kills = PlayerPrefs.GetInt(ScorePrefs.KILLS);
         else

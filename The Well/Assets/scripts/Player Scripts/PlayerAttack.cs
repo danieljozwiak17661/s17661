@@ -4,38 +4,47 @@ using UnityEngine;
 
 public class PlayerAttack : MonoBehaviour
 {
-    private float attackWait;
+    public float attackWait;
     public float startAttackWait;
 
     public Animator animator;
-
 
     public Transform attackPos;
     public float attackRange;
     public LayerMask whatIsEnemy;
     public int damage;
+
     // Start is called before the first frame update
 
+    private void Start()
+    {
+        
+    }
     // Update is called once per frame
     void Update()
     {
+        
         if (attackWait <= 0)
         {
-            if (Input.GetKey(KeyCode.P))
+            if (GetComponent<PlayerCore>().dead == false)
             {
-                Collider2D[] enemiesToKill = Physics2D.OverlapCircleAll(attackPos.position, attackRange, whatIsEnemy);
-                for (int i = 0; i < enemiesToKill.Length; i++)
+                if (Input.GetKey(KeyCode.P))
                 {
-                    enemiesToKill[i].GetComponent<Enemy>().TakeDamage(damage);
+                    Collider2D[] enemiesToKill = Physics2D.OverlapCircleAll(attackPos.position, attackRange, whatIsEnemy);
+                    for (int i = 0; i < enemiesToKill.Length; i++)
+                    {
+                        enemiesToKill[i].GetComponent<Enemy>().TakeDamage(damage);
+                    }
+                    attackWait = startAttackWait;
+                    animator.SetTrigger("PUNCH");
                 }
-                animator.SetTrigger("PUNCH");
             }
-            attackWait = startAttackWait;
         }
         else
         {
             attackWait -= Time.deltaTime;
         }
+ 
     }
 
     private void OnDrawGizmosSelected()

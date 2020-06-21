@@ -69,10 +69,7 @@ public class ScoreManager : MonoBehaviour
         }
     }
 
-    internal void IncrementScore(int kills)
-    {
-        throw new NotImplementedException();
-    }
+
 
     internal static void LoadScene(string v)
     {

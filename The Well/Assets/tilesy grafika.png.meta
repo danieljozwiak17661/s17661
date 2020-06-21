@@ -36,6 +36,15 @@ TextureImporter:
     21300062: tilesy grafika_31
     21300064: tilesy grafika_32
     21300066: tilesy grafika_33
+    21300068: tilesy grafika_34
+    21300070: tilesy grafika_35
+    21300072: tilesy grafika_36
+    21300074: tilesy grafika_37
+    21300076: tilesy grafika_38
+    21300078: tilesy grafika_39
+    21300080: tilesy grafika_40
+    21300082: tilesy grafika_41
+    21300084: tilesy grafika_42
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -122,17 +131,17 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 304
+        y: 172
         width: 32
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 0, y: 0, z: 0, w: 1}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8f13ce6be04b637458e447549fd6d989
+      spriteID: 1f1603dfb86c60c4db472900eaf9f21a
       vertices: []
       indices: 
       edges: []
@@ -142,17 +151,17 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 34
-        y: 304
+        y: 172
         width: 32
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 0, y: 0, z: 0, w: 1}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e554f0cfdc63f874bac6cbcdf295a2f9
+      spriteID: 8cea2473c62875148b2c9d9eab19849d
       vertices: []
       indices: 
       edges: []
@@ -162,17 +171,17 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 68
-        y: 304
+        y: 172
         width: 32
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 0, y: 0, z: 0, w: 1}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c3a699f226dae043b3bbbd18ef41ddd
+      spriteID: 41a2313747d0a5e4a9c8271982f98ff6
       vertices: []
       indices: 
       edges: []
@@ -182,7 +191,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 102
-        y: 304
+        y: 172
         width: 32
         height: 32
       alignment: 0
@@ -192,7 +201,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 75af2feabd6a6a142971a67411c79317
+      spriteID: ca16ea9d66e3f9844a9b4c2e7ceb9457
       vertices: []
       indices: 
       edges: []
@@ -202,7 +211,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 170
-        y: 301
+        y: 172
         width: 32
         height: 32
       alignment: 0
@@ -212,7 +221,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d658ba47a3079f347a827628f8aa541f
+      spriteID: 7af40b5e3e704e2459f524a488eeb130
       vertices: []
       indices: 
       edges: []
@@ -222,7 +231,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 204
-        y: 301
+        y: 172
         width: 32
         height: 32
       alignment: 0
@@ -232,7 +241,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b68530329e15f548b46bce0271c928c
+      spriteID: ffa6030bc717b6547a314a559b04637d
       vertices: []
       indices: 
       edges: []
@@ -242,7 +251,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 270
+        y: 138
         width: 32
         height: 32
       alignment: 0
@@ -252,7 +261,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c411593c9ddd6f4588b6364570aee1e
+      spriteID: 971dc853fed71964daa3b29001fbc5af
       vertices: []
       indices: 
       edges: []
@@ -262,7 +271,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 34
-        y: 270
+        y: 138
         width: 32
         height: 32
       alignment: 0
@@ -272,7 +281,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2214a770aada06640a19d056ae34670e
+      spriteID: 27ebb29f20f0947469491e3224eff4df
       vertices: []
       indices: 
       edges: []
@@ -282,7 +291,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 68
-        y: 270
+        y: 138
         width: 32
         height: 32
       alignment: 0
@@ -292,7 +301,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a433534fdf01e3e4eb7f5724a92c81b0
+      spriteID: 49eb7eb5b17a0dc45b3a2aae940431b0
       vertices: []
       indices: 
       edges: []
@@ -302,7 +311,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 102
-        y: 270
+        y: 138
         width: 32
         height: 32
       alignment: 0
@@ -312,7 +321,27 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 97800cd5ae41945408ef901a76734d9f
+      spriteID: e3c427a3e58f96b49b67e788bbd5897e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesy grafika_10
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 138
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dcb585300c167e4fb4256dd84ee9e90
       vertices: []
       indices: 
       edges: []
@@ -321,8 +350,8 @@ TextureImporter:
       name: tilesy grafika_11
       rect:
         serializedVersion: 2
-        x: 204
-        y: 267
+        x: 0
+        y: 104
         width: 32
         height: 32
       alignment: 0
@@ -332,7 +361,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 31b9a1fc6983b154294d72b761a406ac
+      spriteID: 8b423d709717d084cb56fbd77751aed1
       vertices: []
       indices: 
       edges: []
@@ -341,8 +370,8 @@ TextureImporter:
       name: tilesy grafika_12
       rect:
         serializedVersion: 2
-        x: 0
-        y: 236
+        x: 34
+        y: 104
         width: 32
         height: 32
       alignment: 0
@@ -352,7 +381,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b9309f24019e43546b546202d4915597
+      spriteID: 0031e8bf9f35ba44789d07d6402b4929
       vertices: []
       indices: 
       edges: []
@@ -361,8 +390,8 @@ TextureImporter:
       name: tilesy grafika_13
       rect:
         serializedVersion: 2
-        x: 34
-        y: 236
+        x: 68
+        y: 104
         width: 32
         height: 32
       alignment: 0
@@ -372,7 +401,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f29e7d799d0e47e4f8c72eeda3762893
+      spriteID: 9f6f080c31dbbe24ca5e0bbae1ca7142
       vertices: []
       indices: 
       edges: []
@@ -381,18 +410,18 @@ TextureImporter:
       name: tilesy grafika_14
       rect:
         serializedVersion: 2
-        x: 68
-        y: 236
+        x: 102
+        y: 104
         width: 32
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 0, y: 0, z: 0, w: 1}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 54030b1ce28cca2418aa69ff3f6a4df1
+      spriteID: a26037efa39363c4fac37bbab067cfb6
       vertices: []
       indices: 
       edges: []
@@ -401,18 +430,18 @@ TextureImporter:
       name: tilesy grafika_15
       rect:
         serializedVersion: 2
-        x: 102
-        y: 236
+        x: 136
+        y: 104
         width: 32
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 0, y: 0, z: 0, w: 1}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f7f94b218bd6788449a52af87655136c
+      spriteID: b6c65e7eee0605d46b9b5e04b2f4b6b1
       vertices: []
       indices: 
       edges: []
@@ -421,18 +450,18 @@ TextureImporter:
       name: tilesy grafika_16
       rect:
         serializedVersion: 2
-        x: 136
-        y: 236
+        x: 170
+        y: 104
         width: 32
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 0, y: 0, z: 0, w: 1}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 981639b75ee2b704f8254764e98383cf
+      spriteID: a9aa227ccfc3eef468151b78c2352e4e
       vertices: []
       indices: 
       edges: []
@@ -441,8 +470,8 @@ TextureImporter:
       name: tilesy grafika_17
       rect:
         serializedVersion: 2
-        x: 170
-        y: 236
+        x: 204
+        y: 104
         width: 32
         height: 32
       alignment: 0
@@ -452,7 +481,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d217ee34232413c4fa7d7a4bfe83a56d
+      spriteID: 5961457d5f3799f4f9b5b9ebf1b5ca4a
       vertices: []
       indices: 
       edges: []
@@ -461,8 +490,8 @@ TextureImporter:
       name: tilesy grafika_18
       rect:
         serializedVersion: 2
-        x: 204
-        y: 233
+        x: 238
+        y: 104
         width: 32
         height: 32
       alignment: 0
@@ -472,7 +501,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a827f566f975154382ab776974c0370
+      spriteID: 5f55da642cbba9742947917963a4d6a0
       vertices: []
       indices: 
       edges: []
@@ -482,7 +511,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 202
+        y: 70
         width: 32
         height: 32
       alignment: 0
@@ -492,7 +521,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b0bc82944d58edc41a82066a87de8f41
+      spriteID: 4604168dc98e0544c8ad328997c7e42a
       vertices: []
       indices: 
       edges: []
@@ -502,17 +531,17 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 34
-        y: 202
+        y: 70
         width: 32
-        height: 31
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 2}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c73ede66d46a7d14e9a0aa2abb686b3c
+      spriteID: f0868cf7c5df6ac45881158e3a55932a
       vertices: []
       indices: 
       edges: []
@@ -522,7 +551,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 68
-        y: 202
+        y: 70
         width: 32
         height: 32
       alignment: 0
@@ -532,7 +561,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f9b0692b69e8f5b4d8d102e80a09bcbd
+      spriteID: 015ba0add4ad9e14aaaf116b59e9124a
       vertices: []
       indices: 
       edges: []
@@ -541,8 +570,8 @@ TextureImporter:
       name: tilesy grafika_22
       rect:
         serializedVersion: 2
-        x: 0
-        y: 168
+        x: 102
+        y: 70
         width: 32
         height: 32
       alignment: 0
@@ -552,7 +581,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1f0a8749b28cb7b429e52d3ddc334580
+      spriteID: e5a5bf5168c2bd54eb9b42e90195a7ff
       vertices: []
       indices: 
       edges: []
@@ -561,8 +590,8 @@ TextureImporter:
       name: tilesy grafika_23
       rect:
         serializedVersion: 2
-        x: 34
-        y: 168
+        x: 170
+        y: 70
         width: 32
         height: 32
       alignment: 0
@@ -572,7 +601,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89bdc25f12bc4554e8f3a3f1bf5b5b38
+      spriteID: a97a7341826735d469123d82d02b95c6
       vertices: []
       indices: 
       edges: []
@@ -581,8 +610,8 @@ TextureImporter:
       name: tilesy grafika_24
       rect:
         serializedVersion: 2
-        x: 68
-        y: 168
+        x: 204
+        y: 70
         width: 32
         height: 32
       alignment: 0
@@ -592,7 +621,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fee3681c107fdfa40a1d98fba625a199
+      spriteID: c1a8634b7a943e949a7b9797f55d9088
       vertices: []
       indices: 
       edges: []
@@ -601,8 +630,8 @@ TextureImporter:
       name: tilesy grafika_25
       rect:
         serializedVersion: 2
-        x: 102
-        y: 168
+        x: 238
+        y: 70
         width: 32
         height: 32
       alignment: 0
@@ -612,7 +641,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 772287b9ec8a6904cb95b7f422d128d9
+      spriteID: ee81042f8175f5e4c81a8e6322e50bb7
       vertices: []
       indices: 
       edges: []
@@ -621,8 +650,8 @@ TextureImporter:
       name: tilesy grafika_26
       rect:
         serializedVersion: 2
-        x: 136
-        y: 168
+        x: 272
+        y: 70
         width: 32
         height: 32
       alignment: 0
@@ -632,7 +661,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a0cb71c2b0a55944a1f2d17b8e7db0a
+      spriteID: b109d3f984ee16d48a93d506e12e05eb
       vertices: []
       indices: 
       edges: []
@@ -641,8 +670,8 @@ TextureImporter:
       name: tilesy grafika_27
       rect:
         serializedVersion: 2
-        x: 170
-        y: 168
+        x: 0
+        y: 36
         width: 32
         height: 32
       alignment: 0
@@ -652,7 +681,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79e6d2fff8123094db1e34755883cf1c
+      spriteID: db318ceeabb18f643a053ca6b7cc52c4
       vertices: []
       indices: 
       edges: []
@@ -661,8 +690,8 @@ TextureImporter:
       name: tilesy grafika_28
       rect:
         serializedVersion: 2
-        x: 0
-        y: 134
+        x: 34
+        y: 36
         width: 32
         height: 32
       alignment: 0
@@ -672,7 +701,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c3bff4182b9407a44bc72696f01f059a
+      spriteID: 538626b985ee01647bbc4b4da988a3fd
       vertices: []
       indices: 
       edges: []
@@ -681,8 +710,8 @@ TextureImporter:
       name: tilesy grafika_29
       rect:
         serializedVersion: 2
-        x: 34
-        y: 134
+        x: 68
+        y: 36
         width: 32
         height: 32
       alignment: 0
@@ -692,7 +721,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6848dbb670c76424aba1d3af078a2942
+      spriteID: bc620a033fd952a469acd54fc22a039f
       vertices: []
       indices: 
       edges: []
@@ -701,8 +730,8 @@ TextureImporter:
       name: tilesy grafika_30
       rect:
         serializedVersion: 2
-        x: 68
-        y: 134
+        x: 102
+        y: 36
         width: 32
         height: 32
       alignment: 0
@@ -712,7 +741,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e5fe9732576a8f84488a9b864c1cfd9a
+      spriteID: aca184b3321d12548b0170eced99bfae
       vertices: []
       indices: 
       edges: []
@@ -721,18 +750,18 @@ TextureImporter:
       name: tilesy grafika_31
       rect:
         serializedVersion: 2
-        x: 104
-        y: 134
-        width: 30
+        x: 136
+        y: 36
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 3, y: 3, z: 0, w: 2}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e7d31d6edcb849d429741a5687f871a4
+      spriteID: d66a8309fc88bec4282a38e900f0a524
       vertices: []
       indices: 
       edges: []
@@ -741,8 +770,8 @@ TextureImporter:
       name: tilesy grafika_32
       rect:
         serializedVersion: 2
-        x: 136
-        y: 134
+        x: 170
+        y: 36
         width: 32
         height: 32
       alignment: 0
@@ -752,7 +781,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6941995fe85ab0d43989e9c8d8c2db4b
+      spriteID: f81351b343b4d1545a36d0d62057f434
       vertices: []
       indices: 
       edges: []
@@ -761,8 +790,8 @@ TextureImporter:
       name: tilesy grafika_33
       rect:
         serializedVersion: 2
-        x: 170
-        y: 134
+        x: 238
+        y: 36
         width: 32
         height: 32
       alignment: 0
@@ -772,7 +801,187 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 146667d89d4d5fe4a82d0d4536a811a6
+      spriteID: ea2c39e1672efac44b0cf94e60fd5269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesy grafika_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c664073ee5989cd43818999de3c45b1e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesy grafika_35
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 2
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d781710d2dd47648b55a99708e2ffdc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesy grafika_36
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 2
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fc82c516b02c7548a093e876e5a9181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesy grafika_37
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 2
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2b6f9b1848884b4fa9cb78b38910342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesy grafika_38
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 2
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbfd50559d354ef41a47e368c4b5b103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesy grafika_39
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 2
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dc9e3a8f7a191a448741a58b3079881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesy grafika_40
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 2
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: addef9522f82cd14692e37a87f3b064e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesy grafika_41
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 2
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b2964c82dbc993409b66a3769fe5e63
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tilesy grafika_42
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 2
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 864419d5f618baa46aeb0293cc953518
       vertices: []
       indices: 
       edges: []

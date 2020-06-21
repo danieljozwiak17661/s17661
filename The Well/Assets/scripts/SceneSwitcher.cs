@@ -5,23 +5,26 @@ using UnityEngine.SceneManagement;
 
 public class SceneSwitcher : MonoBehaviour
 {
-    private ScoreManager scoreManager;
+    private KillManager KillManager;
+    private HeightManager HeightManager;
 
     void Start()
     {
         GameObject g = GameObject.Find("ScoreManager");
         if (g != null)
-            scoreManager = g.GetComponent<ScoreManager>();
+        {
+            KillManager = g.GetComponent<KillManager>();
+            HeightManager = g.GetComponent<HeightManager>();
+        }
     }
 
     public void LoadLevel(int i)
     {
-        if (scoreManager != null)
-        {
-            PlayerPrefs.SetInt(ScorePrefs.PREVIOUS_KILLS, scoreManager.kills);
-            PlayerPrefs.SetInt(ScorePrefs.PREVIOUS_HEIGHT, scoreManager.Height);
-            SceneManager.LoadScene("Level_" + i);
-        }
+        if (KillManager != null)
+            PlayerPrefs.SetInt(ScorePrefs.PREVIOUS_KILLS, KillManager.kills);
+        if (HeightManager != null)
+            PlayerPrefs.SetInt(ScorePrefs.PREVIOUS_HEIGHT, HeightManager.Height);
+        SceneManager.LoadScene("Level_" + i);
     }
 
 
